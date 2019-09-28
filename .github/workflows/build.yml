@@ -1,6 +1,9 @@
 name: Build website
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   clean:
