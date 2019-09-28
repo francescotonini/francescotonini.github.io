@@ -1,4 +1,4 @@
-baseurl = "https://francescotonini.github.io"
+baseurl = "https://tonini.dev"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
@@ -14,7 +14,7 @@ theme = "hugo-goa"
 
 ## Hugo Built-in Features
 # disqusShortname = ""
-# googleAnalytics = "XYZ"
+googleAnalytics = "UA-84358665-4"
 enableRobotsTXT = true
 
 ## Site Settings
@@ -27,15 +27,14 @@ dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
 [params.meta]
-description = "Simple minimalist theme"
-keywords = "minimalist,blog,goa,hugo,developer"
+description = "Thoughts, achievements, dev and F1 stuff."
+keywords = "blog,thoughts,achievements,dev,developer,app,android,ios,ai,deeplearning,f1,formula1,ferrari"
 
 ## Social Accounts
 [params.social]
 github = "francescotonini"
 linkedin = "toninifrancesco"
 twitter = "toninifrancesco"
-email = "francesco@tonini.dev"
 
 ## Extras
 [params.extra]
