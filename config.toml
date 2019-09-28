@@ -1,0 +1,59 @@
+baseurl = "https://francescotonini.github.io"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Francesco Tonini"
+title = "Francesco Tonini"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = ""
+# googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Francesco Tonini"
+intro = "CS Student"
+description = "Student by day, developer by night. Co-founder <a href=\"https://botfactory.it/\">@BotFactory</a>."
+authorimage = "me.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "francescotonini"
+linkedin = "toninifrancesco"
+twitter = "toninifrancesco"
+email = "francesco@tonini.dev"
+
+## Extras
+[params.extra]
+copyright = "© 2019. Francesco Tonini. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = false
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = false
+
+## Main Menu
+[[menu.main]]
+    name = "posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
