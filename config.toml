@@ -1,4 +1,4 @@
-baseurl = "https://tonini.dev"
+baseurl = "https://www.tonini.dev"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
@@ -38,7 +38,7 @@ twitter = "toninifrancesco"
 
 ## Extras
 [params.extra]
-copyright = "© 2019. Francesco Tonini. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+copyright = "© 2019. Francesco Tonini. [All Rights Reserved](https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode)."
 poweredby = false
 highlightjs = true
 socialmarkup = true
