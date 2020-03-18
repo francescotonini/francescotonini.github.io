@@ -1,58 +1,245 @@
 baseurl = "https://www.tonini.dev"
-builddrafts = false
-canonifyurls = false
-languageCode = "en-US"
+defaultContentLanguage = "en"
 
-contentdir = "content"
-layoutdir = "layouts"
-publishdir = "public"
+theme = "LoveIt"
 
-author = "Francesco Tonini"
-title = "Francesco Tonini"
-
-theme = "hugo-goa"
-
-## Hugo Built-in Features
-# disqusShortname = ""
-googleAnalytics = "UA-84358665-4"
 enableRobotsTXT = true
+enableGitInfo = false
+enableEmoji = true
 
-## Site Settings
 [params]
-author = "Francesco Tonini"
-intro = "CS Student"
-description = "Student by day, developer by night. Co-founder <a href=\"https://botfactory.it/\">@BotFactory</a>. In love with AI."
-authorimage = "me.jpg"
-dateformat = "Jan 2, 2006"
+  # LoveIt theme version
+  version = "0.1.X"
+  
+  # Header info
+  [params.header]
+    # desktop header mode ("fixed", "normal", "auto")
+    desktopMode = "fixed"
+    # mobile header mode ("fixed", "normal", "auto")
+    mobileMode = "auto"
+  # Footer Copyright Info
+  [params.footer]
+    # Site creation time
+    since = 2019
+    # license info (HTML format is allowed)
+    license= '<a href="https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode"> All Rights Reserved</a>.'
+  # Page config
+  [params.page]
+    # whether to use lightgallery in the page
+    lightgallery = true
+    # whether to show link to Raw Markdown content of the post
+    linkToMarkdown = true
+  # mathematical formulas (KaTeX https://katex.org/)
+  [params.math]
+    enable = true
+    # default block delimiter is $$ ... $$ and \\[ ... \\]
+    blockLeftDelimiter = ""
+    blockRightDelimiter = ""
+    # default inline delimiter is $ ... $ and \\( ... \\)
+    inlineLeftDelimiter = ""
+    inlineRightDelimiter = ""
+    # KaTeX extension copy_tex
+    copyTex = true
+    # KaTeX extension mhchem
+    mhchem = true
+  # Publisher Info just for SEO
+  [params.publisher]
+    name = "Francesco Tonini"
+    [params.publisher.logo]
+      url = "logo.png"
+      width = 512
+      height = 512
+  # Website Log Info just for SEO
+  [params.logo]
+    url = "logo.png"
+    width = 512
+    height = 512
+  # Website Image Info just for SEO
+  [params.image]
+    url = "favicon.png"
+    width = 800
+    height = 600
+  # CSS and JS Files CDN
+  [params.cdn]
+    # fontawesome-free@5.12.1 https://fontawesome.com/
+    fontawesomeFreeCSS = ''
+    # animate.css@3.7.2 https://github.com/daneden/animate.css
+    animateCSS = ''
+    # smooth-scroll@16.1.2 https://github.com/cferdinandi/smooth-scroll
+    smoothScrollJS = ''
+    # sharer@0.4.0 https://github.com/ellisonleao/sharer.js
+    sharerJS = ''
+    # lazysizes@5.2.0 https://github.com/aFarkas/lazysizes
+    lazysizesJS = ''
+    # lightgallery@1.1.3 lg-thumbnail@1.1.0 lg-zoom@1.1.0 https://github.com/sachinchoolur/lightgallery.js
+    lightgalleryCSS = ''
+    lightgalleryJS = ''
+    lightgalleryThumbnailJS = ''
+    lightgalleryZoomJS = ''
+    # typeit@6.5.1 https://github.com/alexmacarthur/typeit
+    typeitJS = ''
+    # katex@0.11.1 https://github.com/KaTeX/KaTeX
+    katexCSS = ''
+    katexJS = ''
+    katexAutoRenderJS = ''
+    katexCopyTexCSS = ''
+    katexCopyTexJS = ''
+    katexMhchemJS = ''
+    # mermaid@8.4.8 https://github.com/knsv/mermaid
+    mermaidJS = ''
+    # aplayer@1.10.1 https://github.com/MoePlayer/APlayer
+    aplayerCSS = ''
+    aplayerJS = ''
+    # meting@2.0.1 https://github.com/metowolf/MetingJS
+    metingJS = ''
+    # echarts@4.6.0 https://echarts.apache.org/
+    echartsJS = ''
+    echartsMacaronsJS = ''
+    # gitalk@1.6.2 https://github.com/gitalk/gitalk
+    gitalkCSS = ''
+    gitalkJS = ''
+    # valine@1.3.10 https://valine.js.org/
+    valineJS = ''
 
-## Site Meta Settings
-[params.meta]
-description = "Thoughts, achievements, dev and F1 stuff."
-keywords = "blog,thoughts,achievements,dev,developer,app,android,ios,ai,deeplearning,f1,formula1,ferrari"
+# Author Info
+[author]
+  name = "Francesco Tonini"
+  link = ""
 
-## Social Accounts
-[params.social]
-github = "francescotonini"
-linkedin = "toninifrancesco"
-twitter = "toninifrancesco"
+[languages]
+  [languages.en]
+    title = "Francesco Tonini"
 
-## Extras
-[params.extra]
-copyright = "© 2019. Francesco Tonini. [All Rights Reserved](https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode)."
-poweredby = false
-highlightjs = true
-socialmarkup = true
-toc = true
-displayrssicon = false
+    weight = 1
+    
+    languageCode = "en"
+    languageName = "English"
 
-## Main Menu
-[[menu.main]]
-    name = "posts"
-    weight = 100
-    identifier = "posts"
-    url = "/posts/"
-[[menu.main]]
-    name = "about"
-    identifier = "about"
-    weight = 200
-    url = "/about/"
+    paginate = 12
+    dateFormatToUse = "2006-01-02"
+    
+    googleAnalytics = "UA-84358665-4"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        # you can add extra information before the name (HTML format is allowed), such as icons
+        pre = ""
+        name = "Posts"
+        url = "/posts/"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "about"
+        pre = ""
+        name = "About"
+        url = "/about/"
+        title = ""
+        weight = 2
+    [[languages.en.menu.main]]
+        identifier = "tags"
+        pre = ""
+        name = "Tags"
+        url = "/tags/"
+        title = ""
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "github"
+        pre = "<i class='fab fa-github fa-fw'></i>"
+        name = ""
+        url = "https://github.com/francescotonini"
+        title = "GitHub"
+        weight = 4
+      [languages.en.params]
+        # site description
+        description = "Student by day, developer by night. Co-founder <a href=\"https://botfactory.it/\">@BotFactory</a>. In love with AI."
+        # site keywords
+        keywords = ["blog", "thoughts", "achievements", "developer", "f1"]
+        # site default theme ("light", "dark", "auto")
+        defaultTheme = "auto"
+        # Home Page Info
+        [languages.en.params.home]
+          # Home Page Profile
+          [languages.en.params.home.profile]
+            enable = true
+            # URL of avatar shown in home page
+            avatarURL = "/img/me.jpg"
+            # subtitle shown in home page
+            subtitle = "Student by day, developer by night. Co-founder <a href=\"https://botfactory.it/\">@BotFactory</a>. In love with AI."
+            # whether to use typeit animation for subtitle
+            typeit = true
+            # whether to show social links
+            social = true
+          # Home Page Posts
+          [languages.en.params.home.posts]
+            enable = true
+            # special amount of posts in each home posts page
+            paginate = 6
+            # default behavior when you don't set "hiddenFromHomePage" in front matter
+            defaultHiddenFromHomePage = false
+        # Social Info in home page
+        [languages.en.params.social]
+          GitHub = "francescotonini"
+          Linkedin = "toninifrancesco"
+          Twitter = "toninifrancesco"
+        # Social Share Links in post page
+        [languages.en.params.share]
+          enable = true
+          Twitter = true
+          Linkedin = true
+          GitHub = true
+        # Comment Config
+        [languages.en.params.comment]
+          enable = false
+
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    style = "monokai"
+    tabWidth = 4
+  # Goldmark is from Hugo 0.60 the default library used for Markdown
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      # whether to use HTML tags directly in the document
+      unsafe = true
+  # Table Of Contents settings
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+# Sitemap Info
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# Permalinks Info (https://gohugo.io/content-management/urls/#permalinks)
+[Permalinks]
+  # posts = ":year/:month/:filename"
+  posts = ":filename"
+
+# Options to make hugo output files
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
