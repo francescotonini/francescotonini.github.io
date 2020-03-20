@@ -3,7 +3,7 @@ title: "My solution to the Google HashCode 2020 online round"
 description: My C# solution to the "Book" problem of Google HashCode 2020 online round
 tags: [ "google", "hashcode", "csharp" ]
 date: 2020-02-08T21:20:35+02:00
-lastmod: 2020-04-18T22:20:30+02:00
+lastmod: 2020-04-20T16:55:00+02:00
 ---
 
 Hi everyone! This post goes through the story behind the development of my solution for the Google HashCode 2020 online round. If you have never heard of Google HashCode, it is a team coding competition made by Google to solve engineering problems. There is no programming language constraints, just a problem to solve in a fixed amount of time. After the online round, the best teams will be invited by Google for the final round.
@@ -42,4 +42,4 @@ While I was happy with the overall result, I had to find a solution for dataset 
 
 This has been a hell of a ride, but it was worth it. It's not the perfect score, but I am more than happy about the result.
 
-If you would like to see my implementation, head over to [GitHub](https://github.com/francescotonini/hashcode-books). If you like this article, please consider sharing it with friends and colleagues. Also, if you have any suggestion, don't be shy. Ciao!
+If you would like to see my implementation, head over to [GitHub](https://github.com/francescotonini/hashcode-books). If you like this article, please consider sharing it with friends and colleagues. Ciao!
