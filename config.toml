@@ -44,7 +44,7 @@ enableEmoji = true
     mhchem = true
   # Publisher Info just for SEO
   [params.publisher]
-    name = "Francesco Tonini"
+    name = "It's a Francesco Tonini"
     [params.publisher.logo]
       url = "logo.png"
       width = 512
@@ -111,9 +111,9 @@ enableEmoji = true
         weight = 4
       [languages.en.params]
         # site description
-        description = "Student by day, developer by night. Co-founder <a href=\"https://botfactory.it/\">@BotFactory</a>. In love with AI."
+        description = "Student by day, developer by night. In love with AI and IoT. Co-founder of BotFactory."
         # site keywords
-        keywords = ["blog", "thoughts", "achievements", "developer"]
+        keywords = ["blog", "thoughts", "achievements", "developer", "student", "ai", "iot"]
         # site default theme ("light", "dark", "auto")
         defaultTheme = "auto"
         # Home Page Info
@@ -124,9 +124,9 @@ enableEmoji = true
             # URL of avatar shown in home page
             avatarURL = "/me.jpg"
             # subtitle shown in home page
-            subtitle = "Student by day, developer by night. Co-founder <a href=\"https://botfactory.it/\">@BotFactory</a>. In love with AI."
+            subtitle = "Student by day, developer by night. In love with AI and IoT. Co-founder of BotFactory."
             # whether to use typeit animation for subtitle
-            typeit = true
+            typeit = false
             # whether to show social links
             social = true
           # Home Page Posts
@@ -188,7 +188,6 @@ enableEmoji = true
 
 # Permalinks Info (https://gohugo.io/content-management/urls/#permalinks)
 [Permalinks]
-  # posts = ":year/:month/:filename"
   posts = ":filename"
 
 # Options to make hugo output files
