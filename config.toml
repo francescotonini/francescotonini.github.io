@@ -44,7 +44,7 @@ enableEmoji = true
     mhchem = true
   # Publisher Info just for SEO
   [params.publisher]
-    name = "It's a Francesco Tonini"
+    name = "Francesco Tonini"
     [params.publisher.logo]
       url = "logo.png"
       width = 512
