@@ -167,6 +167,39 @@ enableEmoji = true
         # whether to use cookie
         cookie = false
 
+# Menu
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is allowed), such as icons
+    pre = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link.
+    title = ""
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    name = "About"
+    url = "/about/"
+    title = ""
+    weight = 2
+  [[menu.main]]
+      identifier = "tags"
+      pre = ""
+      name = "Tags"
+      url = "/tags/"
+      title = ""
+      weight = 3
+  [[menu.main]]
+    identifier = "github"
+    pre = "<i class='fab fa-github fa-fw'></i>"
+    name = ""
+    url = "https://github.com/francescotonini"
+    title = "GitHub"
+    weight = 4
+
 # Author Info
 [author]
   name = "Francesco Tonini"
