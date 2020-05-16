@@ -4,6 +4,7 @@ description: "A quick guide to install it properly"
 tags: [ "ubuntu", "hyperv" ]
 date: 2020-05-02T09:27:00+02:00
 lastmod: 2020-05-02T09:27:00+02:00
+toc: false
 ---
 
 A few days ago Canonical officially released the latest version of Ubuntu. The first of the two releases of 2020 marks a new long term support (LTS).
