@@ -3,7 +3,7 @@ defaultContentLanguage = "en"
 
 theme = "LoveIt"
 
-title = "Francesco Tonini"
+title = "Francesco Tonini - Developer"
 
 enableRobotsTXT = true
 enableGitInfo = false
@@ -17,7 +17,9 @@ enableEmoji = true
   description = "Student by day, developer by night. In love with AI and IoT. Co-founder of BotFactory."
   
   # site keywords
-  keywords = ["blog", "thoughts", "achievements", "developer", "student", "ai", "iot"]
+  keywords = ["blog", "thoughts", "achievements", "developer", "student", "ai", "iot", "ios", "android", "app", "csharp", "c", "c++", "nodejs",
+              "dotnet", "windowsphone", "windows", "deeplearning", "machinelearning", "trackbot", "pricetrackbot", "botfactory", "botfactoryit", "javascript",
+              "linux", "telegram", "apple", "univraule", "univrorari", "bot", "unitn", "univr"]
   
   # site default theme ("light", "dark", "auto")
   defaultTheme = "auto"
