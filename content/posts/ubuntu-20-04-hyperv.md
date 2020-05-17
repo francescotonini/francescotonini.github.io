@@ -1,7 +1,7 @@
 ---
 title: "How to install Ubuntu 20.04 on Hyper-V with enhanced session"
-description: "A quick guide to install it properly"
-tags: [ "ubuntu", "hyperv" ]
+description: "How to configure an Hyper-V virtual machine running Ubuntu 20.04 desktop with enhanced session enabled."
+tags: [ "ubuntu", "20.04", "lts", "hyperv", "windows10", "installation", "vm" ]
 date: 2020-05-02T09:27:00+02:00
 lastmod: 2020-05-02T09:27:00+02:00
 toc: false
