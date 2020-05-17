@@ -169,6 +169,9 @@ enableEmoji = true
         # whether to use cookie
         cookie = false
 
+  [params.cdn]
+    data = "jsdelivr.yml"
+
 # Menu
 [menu]
   [[menu.main]]
