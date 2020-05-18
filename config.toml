@@ -158,16 +158,14 @@ enableEmoji = true
         width = 800
         height = 534
 
-    # Analytics config
-    [params.analytics]
-      enable = false
-      # Google Analytics
-      [params.analytics.google]
-        id = "UA-84358665-4"
-        # whether to anonymize IP
-        anonymizeIP = true
-        # whether to use cookie
-        cookie = false
+  # Analytics config
+  [params.analytics]
+    enable = true
+    # Google Analytics
+    [params.analytics.google]
+      id = "UA-84358665-4"
+      # whether to anonymize IP
+      anonymizeIP = true
 
   [params.cdn]
     data = "jsdelivr.yml"
