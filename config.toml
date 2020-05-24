@@ -1,4 +1,4 @@
-baseurl = "https://www.tonini.dev"
+baseurl = "https://tonini.dev"
 defaultContentLanguage = "en"
 
 theme = "LoveIt"
