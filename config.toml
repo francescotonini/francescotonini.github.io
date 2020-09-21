@@ -1,256 +1,43 @@
 baseurl = "https://tonini.dev"
 defaultContentLanguage = "en"
+hasCJKLanguage = false
+paginate = 4
+theme = "hugo-theme-texify"
+title = "Francesco Tonini"
 
-theme = "LoveIt"
+googleAnalytics = "UA-84358665-4"
+pygmentsUseClasses = true
 
-title = "Francesco Tonini - Developer"
+[author]
+name = "Francesco Tonini"
 
-enableRobotsTXT = true
-enableGitInfo = false
-enableEmoji = true
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[menu.main]]
+  identifier = "post"
+  name = "Post"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  identifier = "archives"
+  name = "Archives"
+  url = "/post/"
+  weight = 2
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 3
 
 [params]
-  # LoveIt theme version
-  version = "0.2.X"
-  
-  # site description
-  description = "Student by day, developer by night. In love with AI and IoT. Co-founder of BotFactory."
-  
-  # site keywords
+  custom_css = ["css/main.css"]
+  description = "Student by day, developer by night. In love with AI and IoT. Co-founder of BotFactory.y"
+  enable_mathjax = false
+  footnote = "Follow me on <a class=link href=https://github.com/francescotonini>GitHub</a> or <a class=link href=https://twitter.com/toninifrancesco>Twitter</a> | <a class=link href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed target=_blank rel=noopener>CC BY-NC-SA 4.0</a>"
   keywords = ["blog", "thoughts", "achievements", "developer", "student", "ai", "iot", "ios", "android", "app", "csharp", "c", "c++", "nodejs",
               "dotnet", "windowsphone", "windows", "deeplearning", "machinelearning", "trackbot", "pricetrackbot", "botfactory", "botfactoryit", "javascript",
               "linux", "telegram", "apple", "univraule", "univrorari", "bot", "unitn", "univr"]
-  
-  # site default theme ("light", "dark", "auto")
-  defaultTheme = "auto"
-  
-  # publig git repo url
-  gitRepo = "https://github.com/francescotonini/blog"
-
-  # sri hash function
-  fingerpring = "sha512"
-
-  # date format
-  dateFormat = "2006-01-02"
-
-  [params.app]
-    # title override for the app when added to iOS or Android home screen
-    title = "Francesco Tonini"
-
-  [params.search]
-    enable = false
-
-  # Header info
-  [params.header]
-    # desktop header mode ("fixed", "normal", "auto")
-    desktopMode = "fixed"
-    # mobile header mode ("fixed", "normal", "auto")
-    mobileMode = "auto"
-
-  # Footer Copyright Info
-  [params.footer]
-    enable = true
-    # whether to show copyright info
-    copyright = true
-    # whether to show the author
-    author = true
-    # Site creation time
-    since = 2019
-    # license info (HTML format is allowed)
-    license= '<a href="https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode">All Rights Reserved</a>.'
-  
-  # Section (all posts) page config
-  [params.section]
-    # special amount of posts in each section page
-    paginate = 20
-    # date format (month and day)
-    dateFormat = "02-01"
-    # amount of RSS pages
-    rss = 10
-
-  # List (category or tag) page config
-  [params.list]
-    # special amount of posts in each list page
-    paginate = 20
-    # date format (month and day)
-    dateFormat = "02-01"
-    # amount of RSS pages
-    rss = 10
-
-  # Home config
-  [params.home]
-    # amount of RSS pages
-    rss = 10
-
-    [params.home.profile]
-      enable = true
-      # URL of avatar shown in home page
-      avatarURL = "/me.jpg"
-      # subtitle shown in home page
-      subtitle = "Student by day, developer by night. In love with AI and IoT. Co-founder of BotFactory."
-      # whether to use typeit animation for subtitle
-      typeit = false
-      # whether to show social links
-      social = true
-
-    [params.home.posts]
-      enable = true
-      # special amount of posts in each home posts page
-      paginate = 6
-
-  # Social config
-  [params.social]
-    GitHub = "francescotonini"
-    Linkedin = "toninifrancesco"
-    Twitter = "toninifrancesco"
-
-  # Page config
-  [params.page]
-    # whether to enable twemoji
-    twemoji = false
-    # whether to use lightgallery in the page
-    lightgallery = false
-    # whether to show link to Raw Markdown content of the post
-    linkToMarkdown = false
-    # mathematical formulas (KaTeX https://katex.org/)
-    [params.page.math]
-      enable = true
-      # default block delimiter is $$ ... $$ and \\[ ... \\]
-      blockLeftDelimiter = ""
-      blockRightDelimiter = ""
-      # default inline delimiter is $ ... $ and \\( ... \\)
-      inlineLeftDelimiter = ""
-      inlineRightDelimiter = ""
-      # KaTeX extension copy_tex
-      copyTex = true
-      # KaTeX extension mhchem
-      mhchem = true
-    
-    [params.page.code]
-      # whether to show the copy button of the code block
-      copy = true
-  
-    [params.page.share]
-      enable = true
-      Twitter = true
-      Linkedin = true
-      GitHub = true
-    
-    [params.page.comment]
-      enable = false
-  
-    # Publisher Info just for SEO
-    [params.page.seo]
-      [params.page.seo.publisher]
-        name = "Francesco Tonini"
-        [params.page.seo.publisher.logo]
-          url = "logo.png"
-          width = 512
-          height = 512
-      # Website Log Info just for SEO
-      [params.page.seo.log]
-        url = "logo.png"
-        width = 512
-        height = 512
-      # Website Image Info just for SEO
-      [params.page.seo.image]
-        url = "seo.png"
-        width = 800
-        height = 534
-
-  # Analytics config
-  [params.analytics]
-    enable = true
-    # Google Analytics
-    [params.analytics.google]
-      id = "UA-84358665-4"
-      # whether to anonymize IP
-      anonymizeIP = true
-
-  [params.cdn]
-    data = "jsdelivr.yml"
-
-# Menu
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    # you can add extra information before the name (HTML format is allowed), such as icons
-    pre = ""
-    name = "Posts"
-    url = "/posts/"
-    # title will be shown when you hover on this menu link.
-    title = ""
-    weight = 1
-  [[menu.main]]
-    identifier = "about"
-    pre = ""
-    name = "About"
-    url = "/about/"
-    title = ""
-    weight = 2
-  [[menu.main]]
-      identifier = "tags"
-      pre = ""
-      name = "Tags"
-      url = "/tags/"
-      title = ""
-      weight = 3
-  [[menu.main]]
-    identifier = "github"
-    pre = "<i class='fab fa-github fa-fw'></i>"
-    name = ""
-    url = "https://github.com/francescotonini"
-    title = "GitHub"
-    weight = 4
-
-# Author Info
-[author]
-  name = "Francesco Tonini"
-  link = "https://tonini.dev"
-
-# Markup
-[markup]
-  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = true
-    lineNoStart = 1
-    lineNos = true
-    lineNumbersInTable = true
-    noClasses = false
-    style = "monokai"
-    tabWidth = 4
-  # Goldmark is from Hugo 0.60 the default library used for Markdown
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      definitionList = true
-      footnote = true
-      linkify = true
-      strikethrough = true
-      table = true
-      taskList = true
-      typographer = true
-    [markup.goldmark.renderer]
-      # whether to use HTML tags directly in the document
-      unsafe = true
-  # Table Of Contents settings
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel = 6
-
-# Sitemap Info
-[sitemap]
-  changefreq = "weekly"
-  filename = "sitemap.xml"
-  priority = 0.5
-
-# Permalinks Info (https://gohugo.io/content-management/urls/#permalinks)
-[Permalinks]
-  posts = ":filename"
-
-# Options to make hugo output files
-[outputs]
-  home = ["HTML", "RSS"]
-  page = ["HTML"]
-  section = ["HTML", "RSS"]
-  taxonomy = ["HTML", "RSS"]
