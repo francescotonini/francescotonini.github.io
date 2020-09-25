@@ -1,10 +1,18 @@
 ---
 title: "How to install Ubuntu 20.04 on Hyper-V with enhanced session"
 description: "How to configure an Hyper-V virtual machine running Ubuntu 20.04 desktop with enhanced session enabled."
-tags: [ "ubuntu", "20.04", "lts", "hyperv", "windows10", "installation", "vm" ]
+author: "Francesco Tonini"
+tags: 
+  - "ubuntu"
+  - "20.04"
+  - "lts"
+  - "hyperv"
+  - "windows10"
+  - "installation"
+  - "vm"
 date: 2020-05-02T09:27:00+02:00
 lastmod: 2020-05-02T09:27:00+02:00
-toc: false
+slug: "ubuntu-20-04-hyperv"
 ---
 
 A few days ago Canonical officially released the latest version of Ubuntu. The first of the two releases of 2020 marks a new long term support (LTS).
