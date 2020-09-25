@@ -1,6 +1,6 @@
 baseurl = "https://tonini.dev"
 defaultContentLanguage = "en"
-hasCJKLanguage = false
+languageCode = "en"
 paginate = 4
 theme = "texify"
 title = "Francesco Tonini"
@@ -9,7 +9,7 @@ googleAnalytics = "UA-84358665-4"
 pygmentsUseClasses = true
 
 [author]
-name = "Francesco Tonini"
+  name = "Francesco Tonini"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
@@ -41,3 +41,5 @@ name = "Francesco Tonini"
   keywords = ["blog", "thoughts", "achievements", "developer", "student", "ai", "iot", "ios", "android", "app", "csharp", "c", "c++", "nodejs",
               "dotnet", "windowsphone", "windows", "deeplearning", "machinelearning", "trackbot", "pricetrackbot", "botfactory", "botfactoryit", "javascript",
               "linux", "telegram", "apple", "univraule", "univrorari", "bot", "unitn", "univr"]
+
+
