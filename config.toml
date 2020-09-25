@@ -42,4 +42,6 @@ pygmentsUseClasses = true
               "dotnet", "windowsphone", "windows", "deeplearning", "machinelearning", "trackbot", "pricetrackbot", "botfactory", "botfactoryit", "javascript",
               "linux", "telegram", "apple", "univraule", "univrorari", "bot", "unitn", "univr"]
 
-
+[taxonomies]
+  series = "series"
+  tag = "tags"
