@@ -1,6 +1,5 @@
 baseurl = "https://tonini.dev"
-defaultContentLanguage = "en"
-languageCode = "en"
+languageCode = "en-US"
 paginate = 4
 theme = "texify"
 title = "Francesco Tonini"
