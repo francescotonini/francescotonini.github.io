@@ -1,46 +1,49 @@
 baseurl = "https://tonini.dev"
-languageCode = "en-US"
+languagecode = "en-US"
 paginate = 4
-theme = "texify"
+theme = "hugo-coder"
 title = "Francesco Tonini"
 
 googleAnalytics = "UA-84358665-4"
-pygmentsUseClasses = true
-
-[author]
-  name = "Francesco Tonini"
-
-[markup]
-  defaultMarkdownHandler = "goldmark"
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
-[[menu.main]]
-  identifier = "post"
-  name = "Post"
-  url = "/"
-  weight = 1
-[[menu.main]]
-  identifier = "archives"
-  name = "Archives"
-  url = "/post/"
-  weight = 2
-[[menu.main]]
-  identifier = "about"
-  name = "About"
-  url = "/about/"
-  weight = 3
 
 [params]
-  custom_css = []
-  description = "Student by day, developer by night. In love with AI and IoT. Co-founder of BotFactory.y"
-  enable_mathjax = false
-  footnote = "Follow me on <a class=link href=https://github.com/francescotonini>GitHub</a> or <a class=link href=https://twitter.com/toninifrancesco>Twitter</a> | <a class=link href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed target=_blank rel=noopener>CC BY-NC-SA 4.0</a>"
-  keywords = ["blog", "thoughts", "achievements", "developer", "student", "ai", "iot", "ios", "android", "app", "csharp", "c", "c++", "nodejs",
-              "dotnet", "windowsphone", "windows", "deeplearning", "machinelearning", "trackbot", "pricetrackbot", "botfactory", "botfactoryit", "javascript",
-              "linux", "telegram", "apple", "univraule", "univrorari", "bot", "unitn", "univr"]
+  author = "Francesco Tonini"
+  description = "Student by day, developer at night! MSc in Computer Science @ UniTrento. In love with AI and coffee." 
+  footercontent = "<i>I'm not superstitious, but I'm a little 'stitious.</i>"
+  avatarUrl = "/profile.jpg"
+  favicon_32 = "/favicon-32x32.png"
+  favicon_16 = "/favicon-16x16.png"
+  touchIcon = "/apple-touch-icon.png"
+  since = 1997
+  colorScheme = "auto"
 
-[taxonomies]
-  series = "series"
-  tag = "tags"
+[[params.social]]
+    name = "Github"
+    icon = "fa fa-github"
+    weight = 1
+    url = "https://github.com/francescotonini/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter"
+  weight = 2
+  url = "https://twitter.com/toninifrancesco/"
+[[params.social]]
+  name = "Blog"
+  icon = "fa fa-globe"
+  weight = 3
+  url = "https://francescotti.com"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin"
+  weight = 4
+  url = "https://www.linkedin.com/in/toninifrancesco/"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url = "https://francescotti.com"
+
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "/about"
