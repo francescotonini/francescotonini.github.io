@@ -3,6 +3,7 @@ languagecode = "en-US"
 paginate = 4
 theme = "hugo-coder"
 title = "Francesco Tonini"
+enableEmoji = true
 
 googleAnalytics = "UA-84358665-4"
 
