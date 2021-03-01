@@ -4,6 +4,7 @@ paginate = 4
 theme = "hugo-coder"
 title = "Francesco Tonini"
 enableEmoji = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 googleAnalytics = "UA-84358665-4"
 
