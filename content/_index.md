@@ -35,13 +35,13 @@ Sep. 2019 - Mar. 2022
 Sep. 2016 - Jul. 2019  
 
 ## Experience
-**Teaching Assistant, Deep Learning course**, University of Trento
+**Teaching Assistant, Deep Learning course**, University of Trento  
 Feb. 2024 - Sep. 2024
 
-**Junior Researcher, SPRING Project (EU Horizon 2020)**, University of Trento
+**Junior Researcher, SPRING Project (EU Horizon 2020)**, University of Trento  
 Sep. 2022 - Jun. 2024
 
-**Junior Researcher**, Fondazione Bruno Kessler
+**Junior Researcher**, Fondazione Bruno Kessler  
 Mar. 2022 - Sep. 2022
 
 ## Projects
