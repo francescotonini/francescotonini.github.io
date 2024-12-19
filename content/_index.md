@@ -43,3 +43,7 @@ Sep. 2022 - Jun. 2024
 
 **Junior Researcher**, Fondazione Bruno Kessler
 Mar. 2022 - Sep. 2022
+
+## Projects
+**[SPRING - Socially Pertinent Robots in Gerontological Healthcare](https://spring-h2020.eu/)**  
+EU H2020-ICT Research and Innovation Action
