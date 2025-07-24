@@ -8,6 +8,10 @@ title = "Francesco Tonini"
 Francesco Tonini is an ELLIS Ph.D. candidate in Artificial Intelligence at the University of Trento, Italy, working on vision-language models for human behavior understanding. His research focuses on **Gaze Following** and **Human-Object Interaction**, with publications featured in top-tier venues such as ICCV and ACM Multimedia. During his Ph.D. Francesco contributed to the SPRING European project, where he was involved in the development and integration of software modules for socially assistive robots for gerontological healthcare.
 
 ## Papers
+[**Dynamic Scoring with Enhanced Semantics for Training-Free Human-Object Interaction Detection**](https://arxiv.org/abs/2507.17456)  
+_**F. Tonini**, L. Vaquero, A. Conti, C. Beyan, E. Ricci_  
+ACM International Conference on Multimedia (ACMMM), 2025
+
 [**AL-GTD: Deep Active Learning for Gaze Target Detection**](https://dl.acm.org/doi/10.1145/3664647.3680952)  
 _**F. Tonini**, N. Dall'Asen, L. Vaquero, C. Beyan, E. Ricci_  
 ACM International Conference on Multimedia (ACMMM), 2024
