@@ -36,7 +36,7 @@ ACM International Conference on Multimodal Interaction (ICMI), 2022
 **ELLIS Ph.D. in Artificial Intelligence**, University of Trento  
 Nov. 2022 - Current  
 
-**Visiting Ph.D.**, University of Amsterdam
+**Visiting Ph.D.**, University of Amsterdam   
 Jun. 2026 - Nov. 2026
 
 **M.Sc. in Computer Science**, University of Trento  
