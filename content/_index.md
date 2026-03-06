@@ -8,8 +8,8 @@ title = "Francesco Tonini"
 Francesco Tonini is an ELLIS Ph.D. candidate in Artificial Intelligence at the University of Trento, Italy, working on vision-language models for human behavior understanding. His research focuses on **Gaze Following** and **Human-Object Interaction**, with publications featured in top-tier venues such as ICCV and ACM Multimedia. During his Ph.D. Francesco contributed to the SPRING European project, where he was involved in the development and integration of software modules for socially assistive robots for gerontological healthcare.
 
 ## Papers
-[**From Weights to Concepts: Data‑Free Interpretability of CLIP via Singular Vector Decomposition**](https://tonini.dev)
-_F. Gentile, N. Dall'Asen, **F. Tonini**, M. Mancini, L. Vaquero, E. Ricci_
+[**From Weights to Concepts: Data‑Free Interpretability of CLIP via Singular Vector Decomposition**]()   
+_F. Gentile, N. Dall'Asen, **F. Tonini**, M. Mancini, L. Vaquero, E. Ricci_   
 IEEE Computer Vision and Pattern Recognition (CVPR), 2026
 
 [**Dynamic Scoring with Enhanced Semantics for Training-Free Human-Object Interaction Detection**](https://arxiv.org/abs/2507.17456)  
