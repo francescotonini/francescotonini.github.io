@@ -46,10 +46,6 @@ googleAnalytics = "UA-84358665-4"
     name = "About"
     url = "/"
     weight = 1
-  [[menu.main]]
-    name = "Resume"
-    url = "/resume.pdf"
-    weight = 2
 
 [markup.goldmark.renderer]
   unsafe = true  # allow raw HTML in markdown files
