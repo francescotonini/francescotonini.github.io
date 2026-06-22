@@ -5,7 +5,7 @@ title = "Francesco Tonini"
 ## About Me
 {{< figure class="avatar" src="/profile.jpg" alt="avatar">}}
 
-Francesco Tonini is an ELLIS Ph.D. candidate in Artificial Intelligence at the University of Trento, Italy, working on vision-language models for human behavior understanding. His research focuses on **Gaze Following** and **Human-Object Interaction**, with publications featured in top-tier venues such as ICCV and ACM Multimedia. During his Ph.D. Francesco contributed to the SPRING European project, where he was involved in the development and integration of software modules for socially assistive robots for gerontological healthcare. He is currently doing an internship at [Tavus](tavus.io), where he is working on multimodal foundation models for human understanding.
+Francesco Tonini is an ELLIS Ph.D. candidate in Artificial Intelligence at the University of Trento, Italy, working on vision-language models for human behavior understanding. His research focuses on **Gaze Following** and **Human-Object Interaction**, with publications featured in top-tier venues such as ICCV and ACM Multimedia. During his Ph.D. Francesco contributed to the SPRING European project, where he was involved in the development and integration of software modules for socially assistive robots for gerontological healthcare. He is currently doing an internship at [Tavus](https://tavus.io), where he is working on multimodal foundation models for human understanding.
 
 ## Papers
 [**From Weights to Concepts: Data‑Free Interpretability of CLIP via Singular Vector Decomposition**](https://openaccess.thecvf.com/content/CVPR2026/html/Gentile_From_Weights_to_Concepts_Data-Free_Interpretability_of_CLIP_via_Singular_CVPR_2026_paper.html)   
