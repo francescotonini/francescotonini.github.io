@@ -9,7 +9,7 @@ Francesco Tonini is an ELLIS Ph.D. candidate in Artificial Intelligence at the U
 
 ## Papers
 [**FineHOI: Part-Aware Dense Representations for Zero-Shot Human-Object Interaction Detection**]()   
-_**F. Tonini**, L. Vaquero, M. Derakhshani, C.G.M. Snoek, E. Ricci, C. Beyan_   
+_**F. Tonini**, L. Vaquero, M. M. Derakhshani, C. G. M. Snoek, E. Ricci, C. Beyan_   
 ACM International Conference on Multimedia (ACMMM), 2026
 
 [**From Weights to Concepts: Data‑Free Interpretability of CLIP via Singular Vector Decomposition**](https://openaccess.thecvf.com/content/CVPR2026/html/Gentile_From_Weights_to_Concepts_Data-Free_Interpretability_of_CLIP_via_Singular_CVPR_2026_paper.html)   
